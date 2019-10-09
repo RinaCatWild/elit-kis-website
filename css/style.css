@@ -1,0 +1,444 @@
+body {
+    background: url(../img/catsback.png);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: contain;
+    font-family: Georgia, 'Times New Roman', 'Century Schoolbook L', Times, serif;
+    font-size: 17px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+.card-columns {
+    padding: 20px 5px 0;
+}
+
+nav {
+    background-color: lightgrey;
+    border-bottom: 1px solid darkgrey;
+}
+
+ul > li a {
+    color: black !important;
+    font-family: Georgia, 'Times New Roman', 'Century Schoolbook L', Times, serif;
+    font-weight: 500;
+}
+
+ul > li a:hover {
+    color: grey !important;
+}
+
+.img-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-card {
+    width: 330px;
+}
+
+.img-card:hover,
+.shows-mfa:hover {
+    opacity: 0.8;
+}
+
+
+img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+}
+
+.card-body {
+    height: 340px;
+    overflow: auto;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+.headline {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', 'Century Schoolbook L', Times, serif;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', 'Century Schoolbook L', Times, serif;
+    font-weight: 600;
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    height: 100%;
+
+}
+
+.container .wrapper {
+    min-height: 90%;
+    background-color: white;
+    border: 1px solid darkgrey;
+
+}
+
+.container .footer {
+    height: 9%;
+    background-color: #eff2f5;
+    border: 1px solid darkgrey;
+    border-top: 0;
+    margin-bottom: 2px;
+
+}
+
+.copy {
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', 'Century Schoolbook L', Times, serif;
+
+}
+
+.copy:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.about {
+    margin: 15px 20px 20px 15px;
+    text-align: justify;
+}
+
+.article {
+    text-indent: 20px;
+
+}
+
+.article::first-letter {
+    color: black;
+    font-size: 20px;
+    margin-right: 1px;
+    font-family: Georgia, 'Times New Roman', 'Century Schoolbook L', Times, serif;
+    font-weight: 600;
+}
+
+.emblem {
+    float: left;
+    margin-right: 15px;
+}
+
+.decor {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.decor > img {
+    width: 300px;
+}
+
+.doc {
+    height: 80px;
+}
+
+.marg {
+    margin-top: 10px;
+}
+
+.download:hover {
+    text-decoration: none;
+}
+
+.soc {
+    color: black;
+}
+
+.soc:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.shows-mfa {
+    height: 300px;
+}
+
+.card-body-new {
+    height: 270px;
+    overflow: auto;
+}
+
+.card-body-contacts {
+    height: 200px;
+    overflow: auto;
+}
+
+.card-body-catteries {
+    height: 240px;
+    overflow: auto;
+}
+
+.map {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', 'Century Schoolbook L', Times, serif;
+    font-weight: 600;
+}
+
+.decor_img {
+    height: auto;
+}
+
+.kittens_photo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.kittens_photo a {
+    flex-grow: 1;
+    flex-basis: 125px;
+    max-width: 300px;
+    margin: 5px;
+}
+
+.kittens_photo img {
+    width: 100%;
+    height: auto;
+}
+
+.kitten_ph {
+    width: 300px;
+    height: auto;
+}
+
+.card-body-documents,
+.special-height {
+    height: auto;
+}
+
+.sponsors_div a img {
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.banner_slider {
+
+    position: relative;
+    height: auto;
+}
+
+.banner_slider .prev,
+.banner_slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.banner_slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.banner_slider .prev:hover,
+.banner_slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.banner_slider .banner {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner > a {
+    margin-right: 30px;
+}
+
+.banner > a:last-child {
+    margin-right: 0;
+}
+
+.banner a img {
+    margin-bottom: 5px;
+}
+
+.logo_mfa,
+.logo_hills {
+    height: 150px;
+
+}
+
+.logo_paperki,
+.logo_oozoo,
+.logo_monge_gemon,
+.logo_vettorg {
+    width: 170px;
+}
+
+
+@media (max-width: 575px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .headline {
+        font-size: 25px;
+    }
+
+    h2,
+    h3,
+    h5 {
+        font-size: 20px;
+    }
+
+    .card-body {
+        height: auto;
+    }
+    
+    .container {
+       height: auto; 
+    }
+    
+    .footer {
+        height: auto;
+    }
+
+    .emblem {
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+    body {
+        font-size: 16px;
+    }
+
+    .headline {
+        font-size: 35px;
+    }
+
+    .card-body {
+        height: auto;
+    }
+    
+    .container {
+       height: auto; 
+    }
+    
+    .footer {
+        height: auto;
+    }
+
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-gap: 1.25rem;
+        -moz-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+        orphans: 1;
+        widows: 1;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-body {
+        height: auto;
+    }
+
+    .footer {
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card-body {
+        height: auto;
+    }
+    
+    .container {
+       height: auto; 
+    }
+
+    .footer {
+        height: auto;
+    }
+}
